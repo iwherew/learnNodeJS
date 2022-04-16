@@ -7,8 +7,12 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "amadeus","npm"
+    "amadeus",
+    "npm"
   ],
   "author": "amadeus",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.6.0"
+  }
 }
