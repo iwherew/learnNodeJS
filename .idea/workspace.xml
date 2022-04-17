@@ -11,17 +11,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="26cf5771-e025-41d4-aa44-0624e4149aa7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Day3/01-fs/03-writeAsync.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day3/01-fs/04-copy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day3/01-fs/05-readImage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day3/01-fs/06-stream.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day3/01-fs/resource/01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day3/01-fs/resource/02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day3/01-fs/resource/c.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day3/01-fs/resource/d.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day3/01-fs/07-pipe.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day3/01-fs/08-myPipe.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day3/01-fs/resource/03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day3/01-fs/resource/04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day3/01-fs/resource/05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day3/02-http/01-createServer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day3/02-http/02-http.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day3/01-fs/02-write.js" beforeDir="false" afterPath="$PROJECT_DIR$/Day3/01-fs/02-writeSync.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,30 +63,33 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\code\learnNodeJS\Day3\01-fs\resource" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\code\learnNodeJS\Day3\01-fs" />
+    </key>
   </component>
-  <component name="RunManager" selected="Node.js.06-stream.js">
-    <configuration name="02-writeSync.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Day3/01-fs/02-writeSync.js" working-dir="$PROJECT_DIR$/Day3/01-fs">
+  <component name="RunManager" selected="Node.js.02-http.js">
+    <configuration name="01-createServer.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Day3/02-http/01-createServer.js" working-dir="$PROJECT_DIR$/Day3/02-http">
       <method v="2" />
     </configuration>
-    <configuration name="03-writeAsync.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Day3/01-fs/03-writeAsync.js" working-dir="$PROJECT_DIR$/Day3/01-fs">
-      <method v="2" />
-    </configuration>
-    <configuration name="04-copy.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Day3/01-fs/04-copy.js" working-dir="$PROJECT_DIR$/Day3/01-fs">
-      <method v="2" />
-    </configuration>
-    <configuration name="05-readImage.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Day3/01-fs/05-readImage.js" working-dir="$PROJECT_DIR$/Day3/01-fs">
+    <configuration name="02-http.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Day3/02-http/02-http.js" working-dir="$PROJECT_DIR$/Day3/02-http">
       <method v="2" />
     </configuration>
     <configuration name="06-stream.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Day3/01-fs/06-stream.js" working-dir="$PROJECT_DIR$/Day3/01-fs">
       <method v="2" />
     </configuration>
+    <configuration name="07-pipe.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Day3/01-fs/07-pipe.js" working-dir="$PROJECT_DIR$/Day3/01-fs/resource">
+      <method v="2" />
+    </configuration>
+    <configuration name="08-myPipe.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Day3/01-fs/08-myPipe.js" working-dir="$PROJECT_DIR$/Day3/01-fs">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.02-http.js" />
+        <item itemvalue="Node.js.01-createServer.js" />
+        <item itemvalue="Node.js.08-myPipe.js" />
+        <item itemvalue="Node.js.07-pipe.js" />
         <item itemvalue="Node.js.06-stream.js" />
-        <item itemvalue="Node.js.05-readImage.js" />
-        <item itemvalue="Node.js.04-copy.js" />
-        <item itemvalue="Node.js.03-writeAsync.js" />
-        <item itemvalue="Node.js.02-writeSync.js" />
       </list>
     </recent_temporary>
   </component>
@@ -102,8 +102,17 @@
       <option name="presentableId" value="Default" />
       <updated>1649917320758</updated>
       <workItem from="1649917321899" duration="7181000" />
-      <workItem from="1650092449041" duration="6288000" />
+      <workItem from="1650092449041" duration="6355000" />
+      <workItem from="1650175553330" duration="4672000" />
     </task>
+    <task id="LOCAL-00001" summary="fs">
+      <created>1650126177845</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1650126177846</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,6 +131,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="fs" />
+    <option name="LAST_COMMIT_MESSAGE" value="fs" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
