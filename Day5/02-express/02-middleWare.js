@@ -2,9 +2,16 @@
 const express = require('express')
 const fs = require('fs')
 const path = require('path')
+// const bodyParser = require('body-parser')
 
 // 2、创建web服务器
 const app = express()
+
+// 设置用户表单提交数据接收的中间件，所有提交的信息都会保留在req.body中
+// 已废弃
+// app.use(bodyParser.urlencoded({extended: false}))
+app.use(express.json())
+app.use(express.urlencoded({ extended: false }))
 
 // 4、写日志
 app.use((req, res, next) => {
@@ -23,9 +30,15 @@ app.use((req, res, next) => {
     })
 })
 
+
 app.get('/',(req, res)=>{
     res.writeHead(200,{"Content-Type":"text/html"})
     res.write('<h2>hello world</h2>')
+    res.end()
+})
+
+app.post('/submit',(req, res)=>{
+    console.log(req.body)
     res.end()
 })
 

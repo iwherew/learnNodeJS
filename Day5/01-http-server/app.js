@@ -5,7 +5,7 @@ const path = require('path')
 
 http.createServer((req,res) => [
     readDataJson((data)=>{
-        
+
     })
 ]).listen(8080,'localhost')
 
